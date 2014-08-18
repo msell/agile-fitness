@@ -19,3 +19,11 @@ http://bitoftech.net/2014/06/01/token-based-authentication-asp-net-web-api-2-owi
 - implement ssl
 - [create a branch that uses mongoDB instead](https://github.com/attilah/AngularJSAuthentication)
 
+related reading:
+http://unboxedsolutions.com/Blog/Post/16002
+
+http://blogs.msdn.com/b/webdev/archive/2013/09/20/understanding-security-features-in-spa-template.aspx
+
+http://dotnetcodr.com/2014/04/10/introduction-to-net-web-api-2-with-c-part-3-authentication/
+
+http://dlr2008.wordpress.com/2014/01/16/poor-mans-delegation-web-api-version-2-cors-and-system-identitymodel-tokens-jwt-part-1/
