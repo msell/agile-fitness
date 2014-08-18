@@ -27,3 +27,5 @@ http://blogs.msdn.com/b/webdev/archive/2013/09/20/understanding-security-feature
 http://dotnetcodr.com/2014/04/10/introduction-to-net-web-api-2-with-c-part-3-authentication/
 
 http://dlr2008.wordpress.com/2014/01/16/poor-mans-delegation-web-api-version-2-cors-and-system-identitymodel-tokens-jwt-part-1/
+
+http://benfoster.io/blog/dog-fooding-our-api-authentication
