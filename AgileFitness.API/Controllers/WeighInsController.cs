@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using Microsoft.AspNet.Identity;
 
 namespace AgileFitness.API.Controllers
 {
@@ -15,6 +16,14 @@ namespace AgileFitness.API.Controllers
         public IHttpActionResult Get()
         {
             return Ok(WeighIn.CreateWeighIns());
+        }
+
+        [Authorize]
+        [Route("")]
+        public IHttpActionResult Post(WeighIn weighIn)
+        {
+            Console.WriteLine(User.Identity.Name + " posted a weigh in" );
+            return Ok(User.Identity.GetUserName());
         }
     }
 

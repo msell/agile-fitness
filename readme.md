@@ -6,11 +6,10 @@
 - HighwayData will be used for data access over EF
 
 ## PostMan requests:
-https://www.getpostman.com/collections/9b3f73f67ff921a15cdc
+[POSTMAN requests](https://www.getpostman.com/collections/4e660b06cf2d12c0a901)
 
 Reference
 http://bitoftech.net/2014/06/01/token-based-authentication-asp-net-web-api-2-owin-asp-net-identity/
-
 
 ## Todos:
 - Bring in StructureMap for Ioc on web api
@@ -18,3 +17,5 @@ http://bitoftech.net/2014/06/01/token-based-authentication-asp-net-web-api-2-owi
 - Create new Front end project, use angular... perhaps side waffel template or hot towel?
 - host on azure
 - implement ssl
+- [create a branch that uses mongoDB instead](https://github.com/attilah/AngularJSAuthentication)
+
