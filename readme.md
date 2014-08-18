@@ -13,4 +13,5 @@ http://bitoftech.net/2014/06/01/token-based-authentication-asp-net-web-api-2-owi
 - Bring in StructureMap for Ioc on web api
 - Refactor data access to use Highway Data
 - Create new Front end project, use angular... perhaps side waffel template or hot towel?
-
+- host on azure
+- implement ssl
