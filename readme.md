@@ -5,6 +5,9 @@
 - The front end will be AngularJS
 - HighwayData will be used for data access over EF
 
+## PostMan requests:
+https://www.getpostman.com/collections/9b3f73f67ff921a15cdc
+
 Reference
 http://bitoftech.net/2014/06/01/token-based-authentication-asp-net-web-api-2-owin-asp-net-identity/
 

@@ -7,6 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileFitness.API", "AgileFi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0B8D259B-6A68-444C-9664-028252F7EFC4}"
 	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\AgileFitnessAPI-WAWS-dev.json = PublishScripts\Configurations\AgileFitnessAPI-WAWS-dev.json
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
 		readme.md = readme.md
 	EndProjectSection
 EndProject
