@@ -1,17 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Security.Claims;
 using System.Web.Http;
-using AgileFitness.API.Models;
-using Microsoft.AspNet.Identity;
 
 namespace AgileFitness.API.Controllers
 {
     [RoutePrefix("api/WeighIns")]
-    public class WeighInsController : ApiController
+    public class WeighInsController : BaseController
     {
         [Authorize]
         [Route("")]
@@ -24,8 +20,8 @@ namespace AgileFitness.API.Controllers
         [Route("")]
         public IHttpActionResult Post(WeighIn weighIn)
         {
-            var foo = ClaimsPrincipal.Current.Identity;
-            return Ok(ClaimsPrincipal.Current.Claims.SingleOrDefault(c => c.Type == "sub").Value + " weighed in");
+            
+            return Ok(CurrentUser.FirstName + " weighed in");
         }
     }
 
